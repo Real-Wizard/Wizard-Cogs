@@ -1,5 +1,5 @@
 # Wizard-Cogs
-Just Some Python Cogs
+Just Some Python Cogs By Lonely Me 
 
 # Info
 This repo will contain some cogs that could be used by Red-Bots
