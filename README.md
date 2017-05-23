@@ -8,7 +8,13 @@ This repo will contain some cogs that could be used by Red-Bots
 A Bump Seystem Like ServerHounds, Mew, Directory and More
 
 # Jokes
-Jokes, :D Thanks To Apex-Sigmas Code For Me To Be Able To Do it
+Jokes , Self-Explanatory
 
 # Rainbow
 Make a Role Rainbow Colored
+
+# Contact
+You Can Contact Me Through Discord MasterKnight#1375
+
+# Credits
+Apex-Sigma For Some Of The Jokes Codes
