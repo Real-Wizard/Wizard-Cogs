@@ -1,8 +1,10 @@
-
 {
     "AUTHOR" : "MasterKnight",
-    "INSTALL_MSG" : "Thanks for installing my bump cog!",
-    "NAME" : "bump",
-    "SHORT" : "Let people be able to bump their servers,You Have To Enter The Channel Id In The Code",
-    "DESCRIPTION" : "Let people be able to bump their servers,You Have To Enter The Channel Id In The Code"
+    "INSTALL_MSG" : "Thank you for installing Bump!",
+    "NAME" : "Bump",
+    "SHORT" : "A Cross Advertising Method",
+    "DESCRIPTION" : "Cross Advertising Using Bump and cooldown",
+    "TAGS" : ["invite", "bump", "cross advertising"],
+    "REQUIREMENTS" : [],
+    "HIDDEN" : false
 }
