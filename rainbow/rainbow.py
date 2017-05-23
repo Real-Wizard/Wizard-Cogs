@@ -22,10 +22,7 @@ class rainbow:
             colour = int(colour, 16)
             await self.bot.edit_role(ctx.message.server, role, colour=discord.Colour(value=colour))
             await asyncio.sleep(1.0)
-            done = discord.Embed(title="I have succesfly made {} a rainbow role".format(role))
-            await self.bot.say(embed=done)
-
-
+	
 def setup(bot):
     n = rainbow(bot)
     bot.add_cog(n)
