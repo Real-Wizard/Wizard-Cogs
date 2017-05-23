@@ -1,7 +1,10 @@
 {
     "AUTHOR" : "MasterKnight",
-    "INSTALL_MSG" : "Thanks for installing my jokes cog!",
-    "NAME" : "jokes",
-    "SHORT" : "Let people be able to laugh xD",
-    "DESCRIPTION" : "Let people be able to laugh :D"
+    "INSTALL_MSG" : "Thank you for installing Jokes!",
+    "NAME" : "Jokes",
+    "SHORT" : "Jokes On You",
+    "DESCRIPTION" : "Jokes Just Jokes",
+    "TAGS" : ["joke", "jokes", "fun"],
+    "REQUIREMENTS" : [],
+    "HIDDEN" : false
 }
