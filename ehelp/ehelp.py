@@ -116,10 +116,8 @@ class helpc:
                 #this is where all the hecked up stuff happens
                 #since this is a dm, we will send a selfmade description
                 page_no = 1
-                about = " PhoenixBot a Bot Made For TPC."
                 colour = ''.join([randchoice('0123456789ABCDEF') for x in range(6)])
                 colour = int(colour, 16)
-                await self.bot.send_message(ctx.message.author, embed = discord.Embed(title = "About The PhoenixBot", description = about, colour=0x90181e, timestamp = ctx.message.timestamp))
                 for page in pages:
                     desc = "".join(e for e in page)
                     desc = desc.replace("`","")
