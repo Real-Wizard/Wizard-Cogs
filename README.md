@@ -17,5 +17,5 @@ Make a Role Rainbow Colored
 You Can Contact Me Through Discord MasterKnight#1375
 
 # Credits
-Apex-Sigma For Some Of The Jokes Codes
+Apex-Sigma For Some Of The Jokes Codes\n
 Thanks To [Palmtree5](https://github.com/palmtree5) For Helping In Bump
