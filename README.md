@@ -14,7 +14,7 @@ Jokes , Self-Explanatory
 Make a Role Rainbow Colored
 
 # Contact
-You Can Contact Me Through Discord MasterKnight#1375
+You Can Contact Me Through Discord Maste#1375
 
 # Credits
 Apex-Sigma For Some Of The Jokes Codes
