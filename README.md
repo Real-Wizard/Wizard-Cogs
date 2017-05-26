@@ -21,3 +21,6 @@ Apex-Sigma For Some Of The Jokes Codes
 
 
 Thanks To [Palmtree5](https://github.com/palmtree5) For Helping In Bump
+
+
+Tom The Creator of MewTwo For Some Code on Rainbow
