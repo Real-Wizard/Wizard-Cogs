@@ -4,7 +4,7 @@ from discord.ext import commands
 
 __spiced_up_by__ = "Young™#5484"
 
-class PM:
+class Whiper:
 	"""PM People Using The Bot"""
 	def __init__(self, bot):
 		self.bot = bot
@@ -28,7 +28,7 @@ class PM:
             await self.bot.say('Succesfully sent message to {}'.format(user_id))		
 
 def setup(bot):
-	n = PM(bot)
+	n = Whisper(bot)
 	bot.add_cog(n)
 
 
