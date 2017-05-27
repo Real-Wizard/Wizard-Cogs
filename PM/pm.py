@@ -17,9 +17,10 @@ class PM:
         try:
             e = discord.Embed(colour=discord.Colour.red())
             e.title = "You've recieved a message from a developer!"
-            e.add_field(name="Developer:", value=ctx.message.author)
-            e.add_field(name="Time:", value=datetime.datetime.now().strftime("%A, %B %-d %Y at %-I:%M%p").replace("PM", "pm").replace("AM", "am"))
+            e.add_field(name="Developer:", value=ctx.message.author, inline=False)
+            e.add_field(name="Time:", value=datetime.datetime.now().strftime("%A, %B %-d %Y at %-I:%M%p").replace("PM", "pm").replace("AM", "am"), inline=False)
             e.add_field(name="Message:", value=msg, inline=False)
+            e.set_thumbnail(url=ctx.message.author.avatar_url)
             await self.bot.send_message(user, embed=e)
         except:
             await self.bot.say(':x: Failed to send message to user_id `{}`.'.format(user_id))
