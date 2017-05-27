@@ -1,24 +1,31 @@
 import discord
+import datetime
 from discord.ext import commands
+
+__spiced_up_by__ = "Young™#5484"
 
 class PM:
 	"""PM People Using The Bot"""
 	def __init__(self, bot):
 		self.bot = bot
 
-		
-    @commands.command()
+    @commands.command(pass_context=True)
     @checks.is_owner()
-    async def pm(self, user_id: str, *, msg: str):
-	"""Pm a User Using The Bot"""
+    async def whisper(self, ctx, user_id: str, *, msg: str):
+        """Dm users."""
         user = await self.bot.get_user_info(user_id)
         try:
-            await self.bot.send_message(user, msg)
+            e = discord.Embed(colour=discord.Colour.red())
+            e.title = "You've recieved a message from a developer!"
+            e.add_field(name="Developer:", value=ctx.message.author)
+            e.add_field(name="Time:", value=datetime.datetime.now().strftime("%A, %B %-d %Y at %-I:%M%p").replace("PM", "pm").replace("AM", "am"))
+            e.add_field(name="Message:", value=msg, inline=False)
+            await self.bot.send_message(user, embed=e)
         except:
-            await self.bot.say('Could not DM This User ( ' + user_id + ')')
+            await self.bot.say(':x: Failed to send message to user_id `{}`.'.format(user_id))
         else:
-            await self.bot.say('DM successfully sent.')
-# IDEA FROM DANNY
+            await self.bot.say('Succesfully sent message to {}'.format(user_id))		
+
 def setup(bot):
 	n = PM(bot)
 	bot.add_cog(n)
