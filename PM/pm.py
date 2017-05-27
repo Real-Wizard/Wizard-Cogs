@@ -13,7 +13,7 @@ class PM:
 	"""Pm a User Using The Bot"""
         user = await self.bot.get_user_info(user_id)
         try:
-            await self.bot.send_message(user, content)
+            await self.bot.send_message(user, msg)
         except:
             await self.bot.say('Could not DM This User ( ' + user_id + ')')
         else:
