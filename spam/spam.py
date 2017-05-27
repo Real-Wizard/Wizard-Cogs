@@ -11,3 +11,6 @@ class Spam:
 		"""Spam The User hehe"""
 		for i in range(number):
 			await self.bot.send_message(user, spamtext)
+			
+def setup(bot):
+	bot.add_cog(Spam(bot))
