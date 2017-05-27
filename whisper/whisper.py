@@ -4,6 +4,7 @@ from cogs.utils import checks
 from discord.ext import commands
 
 __spiced_up_by__ = "Young™#5484"
+__author__ = "Neo#1375"
 
 class Pm:
     """PM People Using The Bot"""
