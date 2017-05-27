@@ -29,6 +29,7 @@ class Whisper:
             await self.bot.say('Succesfully sent message to {}'.format(user_id))		
 
 def setup(bot):
+    bot.remove_command('whisper')
     n = Whisper(bot)
     bot.add_cog(n)
 
