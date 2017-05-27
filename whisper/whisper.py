@@ -5,14 +5,14 @@ from discord.ext import commands
 
 __spiced_up_by__ = "Young™#5484"
 
-class Whisper:
+class Pm:
     """PM People Using The Bot"""
     def __init__(self, bot):
         self.bot = bot
 
     @commands.command(pass_context=True)
     @checks.is_owner()
-    async def whisper(self, ctx, user_id: str, *, msg: str):
+    async def pm(self, ctx, user_id: str, *, msg: str):
         """Dm users."""
         user = await self.bot.get_user_info(user_id)
         try:
@@ -30,7 +30,7 @@ class Whisper:
 
 def setup(bot):
     bot.remove_command('whisper')
-    n = Whisper(bot)
+    n = Pm(bot)
     bot.add_cog(n)
 
 
