@@ -1,0 +1,8 @@
+{
+    "AUTHOR" : "Neo",
+    "SHORT" : "PM a User",
+    "DESCRIPTION" : "PM a User"
+    "NAME" : "PM",
+    "TAGS" : ["messages", "DM", "PM"],
+    "INSTALL_MSG" : "Thanks for installing my cog"
+}
