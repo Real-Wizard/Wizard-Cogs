@@ -5,7 +5,7 @@ from discord.ext import commands
 
 __spiced_up_by__ = "Young™#5484"
 
-class Whiper:
+class Whisper:
     """PM People Using The Bot"""
     def __init__(self, bot):
         self.bot = bot
