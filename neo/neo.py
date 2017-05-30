@@ -22,23 +22,22 @@ from .utils.dataIO import fileIO
 import logging
 
 class emotes:
-    def __init__(self, bot):
+	def __init__(self, bot):
 		self.bot = bot
 		
 		
 	@commands.command(pass_context=True)
 	async def el(self, ctx):
 		"""EL"""
-        emojis =  []
-        while x < len([r for r in ctx.message.server.emojis]) -1:
-            x = x + 1
-            emojis.append("<:{}:{}>".format([r.name for r in ctx.message.server.emojis][x], [r.id for r inctx.message.server.emojis[x]))
-        if server.emojis:
-            emotes = discord.Embed(title="Emotes", description=" ".join(emojis), colour=discord.Colour(value=colour))
-        else:
-            emotes = discord.Embed(title="Emotes", description="NONE", colour=discord.Colour(value=colour))
+		emojis =  []
+		while x < len([r for r in ctx.message.server.emojis]) -1:
+			x = x + 1
+			emojis.append("<:{}:{}>".format([r.name for r in ctx.message.server.emojis][x], [r.id for r inctx.message.server.emojis[x]))
+		if server.emojis:
+			emotes = discord.Embed(title="Emotes", description=" ".join(emojis), colour=discord.Colour(value=colour))
+		else:
+			emotes = discord.Embed(title="Emotes", description="NONE", colour=discord.Colour(value=colour))
 		await self.bot.say(embed=emotes)
 		
 def setup(bot):
 	bot.add_cog(emotes(bot))
-    
