@@ -13,7 +13,7 @@ class Pm:
 
     @commands.command(pass_context=True)
     @checks.is_owner()
-    async def pm(self, ctx, user_id: str, *, msg: str):
+    async def whisper(self, ctx, user_id: str, *, msg: str):
         """Dm users."""
         user = await self.bot.get_user_info(user_id)
         try:
