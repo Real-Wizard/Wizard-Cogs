@@ -1,5 +1,5 @@
 # Wizard-Cogs
-Just Some Python Cogs By Neo ( Me ) , and Young Creator of Brooklyn
+Just Some Python Cogs By Neo 
 
 # Info
 This repo will contain some cogs that could be used by Red-Bots
@@ -24,3 +24,5 @@ Thanks To [Palmtree5](https://github.com/palmtree5) For Helping In Bump
 
 
 Tom The Creator of MewTwo For Some Code on Rainbow
+
+Young The Creator Of Brooklyn For Some Random Code
