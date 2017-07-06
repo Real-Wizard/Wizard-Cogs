@@ -1,5 +1,5 @@
 {
-    "AUTHOR" : "MasterKnight",
+    "AUTHOR" : "Neo",
     "INSTALL_MSG" : "Thank you for installing Bump!",
     "NAME" : "Bump",
     "SHORT" : "A Cross Advertising Method",
