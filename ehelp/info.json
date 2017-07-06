@@ -1,7 +1,10 @@
 {
-    "AUTHOR" : "MasterKnight",
-    "SHORT" : "Embed Help",
-    "DESCRIPTION" : "Replaces The Boring Help With Embed Help"
-    "TAGS" : ["embed help", "embed", "help"],
-    "INSTALL_MSG" : "Have Fun With The embed Help"
+    "AUTHOR" : "Neo",
+    "INSTALL_MSG" : "Thank you for installing Embed Help!",
+    "NAME" : "Ehelp",
+    "SHORT" : "Just a embed help",
+    "DESCRIPTION" : "A Cog That Replaces Your Boring Help With Embeds",
+    "TAGS" : ["help", "embedhelp", "embed help", "ehelp", "e help],
+    "REQUIREMENTS" : [],
+    "HIDDEN" : false
 }
