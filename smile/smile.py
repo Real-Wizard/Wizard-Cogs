@@ -16,23 +16,23 @@ class Smiles:
         delay = ((times * 1.05 / 10) + 1.5)
         counter = 0
         while counter < times:
-            await self.bot.edit_message(ctx.message, ':grinning:')
+            await self.bot.edit_message(ctx.message, ':smiley:')
             await asyncio.sleep(delay)
             await self.bot.edit_message(ctx.message, ':smile:')
             await asyncio.sleep(delay)
-            await self.bot.edit_message(ctx.message, ':grinning:')
+            await self.bot.edit_message(ctx.message, ':smiley:')
             await asyncio.sleep(delay)
             await self.bot.edit_message(ctx.message, ':smile:')
             await asyncio.sleep(delay)
-            await self.bot.edit_message(ctx.message, ':grinning:')
+            await self.bot.edit_message(ctx.message, ':smiley:')
             await asyncio.sleep(delay)
             await self.bot.edit_message(ctx.message, ':smile:')
             await asyncio.sleep(delay)
-            await self.bot.edit_message(ctx.message, ':grinning:')
+            await self.bot.edit_message(ctx.message, ':smiley:')
             await asyncio.sleep(delay)
             await self.bot.edit_message(ctx.message, ':smile:')
             await asyncio.sleep(delay)
-            await self.bot.edit_message(ctx.message, ':grinning:')
+            await self.bot.edit_message(ctx.message, ':smiley:')
             await asyncio.sleep(delay)
             counter = counter + 1
 
