@@ -1,7 +1,7 @@
 from discord.ext import commands
 import asyncio
 
-class Smile:
+class Smiles:
     """Smile."""
     def __init__(self, bot):
     	self.bot = bot
@@ -37,4 +37,4 @@ class Smile:
             counter = counter + 1
 
 def setup(bot):
-	bot.add_cog(Smile(bot))
+	bot.add_cog(Smiles(bot))
