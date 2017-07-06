@@ -7,7 +7,7 @@ class Spam:
 		self.bot = bot
 		
 	@commands.command()
-	async def spam(self, ctx, user: discord.Member, spamtext, number: int):
+	async def spam(self, ctx, user: discord.Member, spam_text, number: int):
 		"""Spam The User hehe"""
 		for i in range(number):
 			await self.bot.send_message(user, spamtext)
