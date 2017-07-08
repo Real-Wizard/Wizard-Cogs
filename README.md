@@ -19,10 +19,20 @@ Apex-Sigma For Some Of The Jokes Codes
 
 # Cog Information:
 Rainbow - a way to create rainbow roles
+
+
 Ehelp - a Way to replace Your old boring help with a embed help
+
+
 jokes - just using some api's to get jokes
+
+
 spam - Just Some Spam
+
+
 whisper - whisper somebody as the bot's dev
+
+
 
 # Disclaimers
 I do not take any responsibility of any of your actions or edits using my code
