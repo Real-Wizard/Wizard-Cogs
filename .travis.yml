@@ -1,6 +1,6 @@
 {
   "language": "python",
-  "group": "beta",
+  "group": "stable",
   "dist": "precise",
   "os": "windows"
 }
