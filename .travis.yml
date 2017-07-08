@@ -1,1 +1,7 @@
-language: python
+{
+  "language": "python",
+  "group": "beta",
+  "dist": "precise",
+  "os": "windows"
+}
+
