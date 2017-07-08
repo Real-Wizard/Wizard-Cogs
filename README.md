@@ -26,4 +26,6 @@ whisper - whisper somebody as the bot's dev
 
 # Disclaimers
 I do not take any responsibility of any of your actions or edits using my code
+
+
 <img align="center" src="https://cdn.discordapp.com/attachments/292367927129276417/333203593693757440/images_11.png" alt="SOME DISCLAIMERS">
