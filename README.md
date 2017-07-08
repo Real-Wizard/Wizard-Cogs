@@ -25,9 +25,5 @@ spam - Just Some Spam
 whisper - whisper somebody as the bot's dev
 
 # Disclaimers
-
-1 - If You Edit any Code and Get any Bans Its Not My Proplem, The Rainbows Code is Set To 120 Secs For a Reason
-
-2 - If You abuse any of my cogs and get banned of discord or a server its not my proplem
-
+I do not take any responsibility of any of your actions or edits using my code
 <img align="center" src="https://cdn.discordapp.com/attachments/292367927129276417/333203593693757440/images_11.png" alt="SOME DISCLAIMERS">
