@@ -2,8 +2,8 @@
 [![Red Bot](https://img.shields.io/badge/Discord-Red%20Bot-red.svg)](https://github.com/Twentysix26/Red-DiscordBot)
 [![Build Status](https://travis-ci.org/Galarzaa90/NabBot.svg?branch=master)](https://travis-ci.org/Galarzaa90/NabBot)
 
-# Neo-Cogs
-Neo-Cogs Is a Repo Full Of Useful Cogs Made By Lonely Neo
+# Wizard-Cogs
+Wizard-Cogs Is a Repo Full Of Useful Cogs Made By Lonely Neo
 
 # Info
 This repo will contain some cogs that could be used by Red-Bots and Some None-Red-Bots
