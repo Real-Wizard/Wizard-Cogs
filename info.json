@@ -1,8 +1,8 @@
 {
     "AUTHOR" : "Neo",
-    "DESCRIPTION" : "Just a Repo For Cogs Named Neo-Cogs",
+    "DESCRIPTION" : "Just a Repo For Cogs Named Wizard-Cogs",
     "DISABLED" : false,
     "INSTALL_MSG" : "Have Fun With My Cogs",
-    "NAME" : "Neo-Cogs",
-    "SHORT" : "Neo-Cogs"
+    "NAME" : "Wizard-Cogs",
+    "SHORT" : "Magic"
 }
