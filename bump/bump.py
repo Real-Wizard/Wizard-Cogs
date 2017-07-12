@@ -57,11 +57,6 @@ class bump:
         self.settings["bumpchannel"] = channel.id
         dataIO.save_json("data/bump/settings.json", self.settings)
         
-    @commands.command(pass_context=True, name="bumpcredits")
-    async def __credits(self, ctx):
-        """The Guy Who Made The Bump Seystem"""
-        cr = discord.Embed(title="Creator", description="The Guy Who Made This Was MasterKnight#1375\n ID is 223754830747926528", color=0xFFFFFF)
-        await self.bot.say(embed=cr)
 
 
 def check_folder():
