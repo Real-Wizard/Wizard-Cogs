@@ -21,7 +21,7 @@ class bump:
         if "bumpchannel" not in self.settings or not self.settings["bumpchannel"]:
             await self.bot.say("No channel has been set for bump messages to go to!")
             return
-        inv = await self.bot.create_invite(ctx.message.server)
+        inv = await self.bot.create_invite(ctx.message.server, unique=False)
         server = ctx.message.server
         count = 1
         channel = self.bot.get_channel(self.settings["bumpchannel"])
@@ -44,7 +44,6 @@ class bump:
         server = ctx.message.server
         des = server.default_channel.topic
         members = server.member_count
-        inv = await self.bot.create_invite(ctx.message.server)
         message = "Server: {0} \n Description: {1} \n Users: {2} \n  Invite: {3}".format(server, des, members, inv)
         self.bot.send_message(channel, embed=em)
         end = discord.Embed(title="Your Server Was Succesfully Bumped")
